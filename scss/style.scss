@@ -1,0 +1,59 @@
+body {
+	font-family: "brandon-grotesque", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section {
+	padding: 10em 0;
+	text-align: center;
+}
+
+h4 {
+	color: #999;
+}
+
+.where, .who {
+	background-color: #1F2328;
+	color: white;
+}
+
+a {
+	color: #CB00FE;
+	text-decoration: none;
+}
+
+.list {
+	text-align: left;
+	font-size: 2.5rem;
+	
+	& > * {
+		padding-top: 1em;
+	}
+}
+
+.light {
+	color: #999;
+	font-weight: 300;
+}
+
+.tweet {
+	padding-top: 4em;
+
+	.img-container {
+		float: left;
+		padding-right: 10px;
+	}
+
+	img {
+		height: 72px;
+		width: 72px;
+		border-radius: 10px;
+	}
+	
+	.name {
+		text-align: left;
+	}
+	
+	.content {
+		text-align: left;
+	}
+}
